@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    cursor: copy;
+}
+
+.logo:hover{
+    text-shadow: 3px 3px 3px wheat;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sidebar Menu */
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #222;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.sidebar a:hover{
+    background-color: white;
+    border-radius: 50px;
+    text-shadow: 2px 2px 3px black,-2px -2px 3px black;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: rgb(252, 247, 247);
+    margin: 5px 0;
+}
+
+
+
+
+
+/* Search Bar */
+.search-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.search-container button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 9px;
+}
+
+/* About Section */
+.about h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.about p {
+    margin-top: 10px;
+}
+
+/* Friends' Facebook Links */
+.friends {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.friend {
+    background: rgb(189, 245, 4);
+    padding: 80px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    border-radius: 1rlh;
+}
+.friend:hover{
+   
+    box-shadow: 5px 5px 5px ,-5px -5px 10px #222;
+}
+.friend a{
+    text-decoration: none;
+    cursor: alias;
+    color: #ff0303;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Complaint Box */
+.complaint {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.complaint textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.complaint button {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Form */
+.contact {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">M</div>
+        <nav>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+
+    </header>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar" id="sidebar">
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Archives</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button>🔍</button>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <h1>Mithun Biswas</h1>
+        <p>This is a short description about me...</p>
+    </section>
+
+    <!-- Friends' Facebook Links -->
+    <section class="friends">
+        <div class="friend">
+            <a href="https://www.facebook.com/profile.php?id=100069410872676">RAYHAN</a>
+        </div>
+        <div class="friend">
+            <a href="https://www.facebook.com/profile.php?id=100052167853366">ARIFUL</a>
+        </div>
+        <div class="friend">
+            <a href="https://www.facebook.com/avenjer.mithun">ARONNO</a>
+        </div>
+        <div class="friend">
+            <a href="https://www.facebook.com/avenjer.mithun">MITHUN</a>
+        </div>
+    </section>
+
+    <!-- Complaint Box -->
+    <section class="complaint">
+        <textarea placeholder="Write a complaint..."></textarea>
+        <button>Submit</button>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
